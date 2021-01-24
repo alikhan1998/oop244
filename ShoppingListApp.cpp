@@ -4,11 +4,14 @@
 #include "File.h"
 #include "ShoppingList.h"
 #include "Utils.h"
-#include "ShoppingRec.h"
+
 using namespace sdds;
 using namespace std;
 
 const bool APP_OS_WINDOWS = true;
+
+
+int listMenu();
 
 int main() {
    bool done = false;

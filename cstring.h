@@ -1,3 +1,5 @@
+#ifndef SDDS_CSTRING_H
+#define SDDS_CSTRING_H
 namespace sdds{
  // Copies the srouce character string into the destination
    void strCpy(char* des, const char* src);
@@ -22,3 +24,4 @@ namespace sdds{
      // Concantinates "src" C-string to the end of "des"
    void strCat(char* des, const char* src);
 }
+#endif

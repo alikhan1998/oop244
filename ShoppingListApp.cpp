@@ -8,7 +8,7 @@
 using namespace sdds;
 using namespace std;
 
-const bool APP_OS_WINDOWS = false;
+const bool APP_OS_WINDOWS = true;
 
 int main() {
    bool done = false;

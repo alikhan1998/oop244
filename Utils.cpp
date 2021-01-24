@@ -1,6 +1,8 @@
-#include "Utils.h"
 #include <iostream>
+#include "Utils.h"
 using namespace std;
+
+namespace sdds {
 
 void flushkeys() {
    while (cin.get() != '\n');
@@ -49,4 +51,5 @@ int readInt(int min, int max) {
       flushkeys();
    }
    return value;
+}
 }

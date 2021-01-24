@@ -1,8 +1,6 @@
 #ifndef SDDS_SHOPPINGREC_H__
 #define SDDS_SHOPPINGREC_H__
 
-namespace sdds {
-
 const int MAX_TITLE_LENGTH = 50;
 const int MAX_QUANTITY_VALUE = 50;
 
@@ -12,6 +10,7 @@ struct ShoppingRec {
    bool m_bought;
 };
 
+namespace sdds {
 ShoppingRec getShoppingRec();
 void displayShoppingRec(const ShoppingRec* shp);
 void toggleBoughtFlag(ShoppingRec* rec);

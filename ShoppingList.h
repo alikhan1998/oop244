@@ -1,6 +1,10 @@
-#ifndef SHOPPINGLIST_H
-#define SHOPPINGLIST_H
+#ifndef SDDS_SHOPPINGLIST_H
+#define SDDS_SHOPPINGLIST_H
 
+const int MAX_NO_OF_RECS = 15;
+namespace sdds {
+ShoppingRec recs[MAX_NO_OF_RECS] = {};
+int noOfRecs = 0;
 bool loadList();
 void displayList();
 void removeBoughtItems();
@@ -11,10 +15,10 @@ void toggleBought();
 void addItemToList();
 void removeItemfromList();
 bool listIsEmpty();
-int listMenu();
 
-const int MAX_NO_OF_RECS = 15;
-ShoppingRec recs[MAX_NO_OF_RECS] = {};
-int noOfRecs = 0;
+
+
+  
+}
 
 #endif
